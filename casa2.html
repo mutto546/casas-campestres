@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Casa en Pueblo Bello - Hermosa vista, jacuzzi y zona de asados">
+    <title>Casa campo lety es lety | Casas Campestres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">🌿 <span>Casas Campestres</span></h1>
+            <p class="slogan">Descubre el paraíso en la naturaleza</p>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="index.html#casas"><i class="fas fa-tree"></i> Casas</a></li>
+                <li><a href="index.html#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL DEL DETALLE -->
+    <main class="detalle-container">
+        <!-- MIGAS DE PAN (BREADCRUMB) -->
+        <div class="breadcrumb">
+            <a href="index.html">Inicio</a> &gt; 
+            <a href="index.html#casas">Casas</a> &gt; 
+            <span>Casa campo lety es lety</span>
+        </div>
+
+        <div class="detalle-grid">
+            <!-- GALERÍA DE IMÁGENES -->
+            <div class="galeria-container">
+                <div class="galeria-principal">
+                    <img id="imagenPrincipal" src="img/casa8.png" alt="Casa campo lety es lety - Principal">
+                </div>
+                <div class="galeria-miniaturas">
+                    <img src="img/casa6.png" onclick="cambiarImagen(this.src)" alt="Vista 1">
+                    <img src="img/casa7.png" onclick="cambiarImagen(this.src)" alt="Vista 2">
+                    <img src="img/casa8.png" onclick="cambiarImagen(this.src)" alt="Vista 3">
+                    
+                </div>
+            </div>
+
+            <!-- INFORMACIÓN DE LA CASA -->
+            <div class="info-detalle">
+                <h1 class="titulo-casa">Casa campo lety es lety</h1>
+                
+                <div class="rating-detalle">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="rating-text">4.5 (42 reseñas)</span>
+                </div>
+
+                <div class="precio-detalle">
+                    <span class="precio-valor">$300.000</span>
+                    <span class="precio-periodo">/noche</span>
+                </div>
+
+                <div class="descripcion-detalle">
+                    <h3>Sobre este alojamiento</h3>
+                    <p>Escápate a la tranquilidad de Pueblo Bello, un lugar mágico rodeado de naturaleza. Esta hermosa casa ofrece todas las comodidades para una estancia inolvidable. Disfruta de las impresionantes vistas a la montaña desde la terraza, relájate en el jacuzzi privado y comparte momentos especiales en la zona de asados.</p>
+                </div>
+
+                <div class="caracteristicas-detalle">
+                    <h3>Características principales</h3>
+                    <div class="caracteristicas-grid">
+                        <div class="caract-item">
+                            <i class="fas fa-users"></i>
+                            <span>Hasta 6 personas</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-bed"></i>
+                            <span>3 habitaciones</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-bath"></i>
+                            <span>2 baños</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-hot-tub"></i>
+                            <span>Jacuzzi privado</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>Zona de asados</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-wifi"></i>
+                            <span>Wifi gratis</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-car"></i>
+                            <span>Parqueadero</span>
+                        </div>
+                        <div class="caract-item">
+                            <i class="fas fa-tv"></i>
+                            <span>TV por cable</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="servicios-detalle">
+                    <h3>Servicios incluidos</h3>
+                    <ul class="servicios-lista">
+                        <li><i class="fas fa-check-circle"></i> Ropa de cama y toallas</li>
+                        <li><i class="fas fa-check-circle"></i> Cocina equipada</li>
+                        <li><i class="fas fa-check-circle"></i> Jardín privado</li>
+                        <li><i class="fas fa-check-circle"></i> Terraza con vista</li>
+                    </ul>
+                </div>
+
+                <div class="acciones-detalle">
+                    <a href="index.html" class="btn-volver">
+                        <i class="fas fa-arrow-left"></i> Volver
+                    </a>
+                    <!-- BOTÓN DE WHATSAPP CON NÚMERO ACTUALIZADO -->
+                    <a href="https://wa.me/573003806930?text=Hola%21%20Estoy%20interesado%20en%20la%20Casa%20en%20Pueblo%20Bello.%20¿Me%20pueden%20dar%20más%20información%3F" 
+                       class="btn-whatsapp" 
+                       target="_blank">
+                        <i class="fab fa-whatsapp"></i> Reservar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DE RESEÑAS -->
+        <section class="resenas">
+            <h2>Reseñas de huéspedes</h2>
+            <div class="resenas-grid">
+                <div class="resena-card">
+                    <div class="resena-header">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Usuario">
+                        <div>
+                            <h4>María González</h4>
+                            <div class="resena-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Increíble experiencia, la casa es hermosa y la vista espectacular. El jacuzzi es perfecto para relajarse."</p>
+                </div>
+                <div class="resena-card">
+                    <div class="resena-header">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Usuario">
+                        <div>
+                            <h4>Carlos Rodríguez</h4>
+                            <div class="resena-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Excelente lugar para desconectarse. Muy limpio y acogedor. Volveremos sin dudar."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE INSTAGRAM - SOLO TEXTO Y BOTÓN (SIN FOTOS) -->
+        <section class="instagram-section">
+            <h2><i class="fab fa-instagram"></i> Síguenos en Instagram</h2>
+            <p>Descubre más fotos y vive la experiencia desde nuestra galería</p>
+            
+            <div class="instagram-btn-container">
+                <a href="https://www.instagram.com/casacampo_letyeslety/" class="btn-instagram" target="_blank">
+                    <i class="fab fa-instagram"></i> Ver más en Instagram
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>🌿 Casas Campestres</h4>
+                <p>Tu mejor opción para escapar de la ciudad.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/casa_lospinos1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573003806930" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#casas">Casas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-phone"></i> <a href="tel:+573003806930" style="color: white; text-decoration: none;">+57 300 380 6930</a></p>
+                <p><i class="fas fa-envelope"></i> info@casascampestres.co</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Casas Campestres. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Función para cambiar la imagen principal
+        function cambiarImagen(src) {
+            document.getElementById('imagenPrincipal').src = src;
+        }
+
+        // Menú responsive
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('navMenu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
